@@ -1,0 +1,156 @@
+/* 
+    Document   : profile
+    Created on : 7 Nov, 2012, 10:27:23 PM
+    Author     : Pruthvi_Kaveti
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+
+font: 12px Verdana, Geneva, sans-serif;
+}
+
+#header{
+width:800px;
+margin:auto;
+padding:10px;
+background:#ccc;
+}
+
+#welcome
+{
+width:700px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font:16px Verdana,Geneva,sans-serif;
+line-height:24px;
+
+}
+
+.submit1{
+	margin:0;
+	width:200px;
+	height:20px;
+	padding:2px 0;
+	color:#352a2a2;
+        font-size:12px;
+	font-weight:bold;
+	background-color:#ffec46;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#fa2));
+	background-image:-moz-linear-gradient(#ffec46,#fa2);
+	background-image:-ms-linear-gradient(#ffec46,#fa2);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#fa2));
+	background-image:-webkit-linear-gradient(#ffec46,#fa2);
+	background-image:-o-linear-gradient(#ffec46,#fa2);
+	background-image:linear-gradient(#ffec46,#fa2);
+	border-color:#fd9d00
+}
+
+.submit1:hover{
+        cursor: pointer;
+	background-color:#fa2;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#f09600));
+	background-image:-moz-linear-gradient(#ffec46,#f09600);
+	background-image:-ms-linear-gradient(#ffec46,#f09600);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#f09600));
+	background-image:-webkit-linear-gradient(#ffec46,#f09600);
+	background-image:-o-linear-gradient(#ffec46,#f09600);
+	background-image:linear-gradient(#ffec46,#f09600);
+	background-position:0 0;
+	border-color:#ed9200
+}
+
+.submit1:active{
+	-webkit-box-shadow:inset 0 3px 7px rgba(0,0,0 .1),0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05);
+	box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05)
+}
+
+#attr_conf{
+color:#7d4900;
+font-size:20px;
+}
+
+#attr_date{
+color:#7d4900;
+font-size:14px;
+}
+
+#conf_name{
+width:800px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font-size:24px;
+}
+
+#dates{
+width:600px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font-size:14px;
+border:0px solid black;
+}
+
+#reglog{
+    width:800px;
+    margin:auto;
+}
+.reglogit{
+    width:300px;
+    height:65px;
+    background:#f1f1f1;
+    text-align:center;
+    color:#352a2a;
+}
+#left{
+float:left;
+}
+#right{
+float:right;
+}
+#clear{
+clear:both;
+}
+
+#topics_chzn{
+width:310px !important;
+}
+.chzn-drop{
+width:310px !important;
+text-align:left;
+}
+
+
+
+#profile{
+    
+    width:600px;
+    margin:auto;
+    margin-top:16px;
+    border:1px solid #ccc;
+    padding:8px;
+    background:#f1f1f1;
+    
+}
+#profile-head{
+    width:400px; margin:auto;font:16px Verdana,geneva,sans-serif;color:#7d4900;text-align:center;font-weight:bold;
+}
+#prof_table_holder{
+    width:400px; margin:auto;margin-top:8px;
+}
+#prof_table{
+    background:#fff;
+    margin:0px;
+    border:0px solid #ccc;width:400px;
+}
+
+#tb_left{
+    color:#7d4900;
+}

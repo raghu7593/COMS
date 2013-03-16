@@ -1,0 +1,16 @@
+#body-right {
+	height: 700px !important;
+}
+
+#body-left {
+	height: 680px !important;
+}
+
+#body-rit-head{
+	text-align:center;
+	font:12px Verdana,geneva,sans-serif;
+	font-size:20px;
+	padding:4px 0px;
+	color:#7d4900;
+	border:0px solid black;
+}

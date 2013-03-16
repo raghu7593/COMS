@@ -1,0 +1,75 @@
+#body-right {
+	height: 500px !important;
+        overflow-y:scroll;
+}
+
+#body-left {
+	height: 500px !important;
+        overflow-y:scroll;
+}
+
+#body-rit-head{
+	text-align:center;
+	font:12px Verdana,geneva,sans-serif;
+	font-size:20px;
+	padding:12px 0px;
+        padding-bottom:4px;
+	color:#7d4900;
+	border:0px solid black;
+}
+
+#paper_item{
+    width:400px;
+    margin:auto;
+    border:1px solid #ccc;
+    padding:4px;
+    background:#f1f1f1;
+    margin-top:8px;
+    
+}
+
+#paper_title{
+    font-size:14px;color:#4d0015;margin-bottom:0px;text-align:center;margin:4px;margin-bottom:0px;cursor: pointer;
+}
+#paper_topic{
+    font-size:12px;color:#352a2a;margin-bottom:0px;text-align:center;margin:0px 4px;margin-bottom:2px;
+}
+
+.submit1{
+	margin:0;
+	width:100px;
+	height:24px;
+	padding:2px 0;
+	color:#333;
+	font-weight:bold;
+	background-color:#ffec46;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#fa2));
+	background-image:-moz-linear-gradient(#ffec46,#fa2);
+	background-image:-ms-linear-gradient(#ffec46,#fa2);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#fa2));
+	background-image:-webkit-linear-gradient(#ffec46,#fa2);
+	background-image:-o-linear-gradient(#ffec46,#fa2);
+	background-image:linear-gradient(#ffec46,#fa2);
+	border-color:#fd9d00
+}
+
+.submit1:hover{
+	background-color:#fa2;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#f09600));
+	background-image:-moz-linear-gradient(#ffec46,#f09600);
+	background-image:-ms-linear-gradient(#ffec46,#f09600);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#f09600));
+	background-image:-webkit-linear-gradient(#ffec46,#f09600);
+	background-image:-o-linear-gradient(#ffec46,#f09600);
+	background-image:linear-gradient(#ffec46,#f09600);
+	background-position:0 0;
+	border-color:#ed9200
+}
+
+.submit1:active{
+	-webkit-box-shadow:inset 0 3px 7px rgba(0,0,0 .1),0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05);
+	box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05)
+}

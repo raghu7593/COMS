@@ -1,0 +1,69 @@
+body{
+
+font: 12px Verdana, Geneva, sans-serif;
+}
+
+#header{
+width:800px;
+margin:auto;
+padding:10px;
+background:#ccc;
+}
+
+#welcome
+{
+width:800px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font:16px Verdana,Geneva,sans-serif;
+line-height:24px;
+
+}
+
+
+
+#attr_conf{
+color:#352a2a;
+font-size:20px;
+}
+
+#attr_date{
+color:#352a2a;
+font-size:14px;
+}
+
+#conf_name{
+width:800px;
+margin:auto;
+text-align:center;
+color:#7d4900;
+font-size:24px;
+}
+
+#dates{
+width:600px;
+margin:auto;
+text-align:center;
+color:#7d4900;
+font-size:14px;
+border:0px solid black;
+}
+
+#left{
+float:left;
+}
+#right{
+float:right;
+}
+#clear{
+clear:both;
+}
+
+.container{	
+	margin:0 auto;
+	background:#fff;
+	width:500px;
+	padding:20px 40px;
+	text-align:left;
+}

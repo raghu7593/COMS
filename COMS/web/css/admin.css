@@ -1,0 +1,238 @@
+body{
+
+font: 12px Verdana, Geneva, sans-serif;
+}
+
+#header{
+width:800px;
+margin:auto;
+padding:10px;
+background:#ccc;
+}
+
+#welcome
+{
+width:700px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font:16px Verdana,Geneva,sans-serif;
+line-height:24px;
+
+}
+
+.submit1{
+	margin:0;
+	width:310px;
+	height:20px;
+	padding:2px 0;
+	color:#352a2a2;
+        font-size:12px;
+	font-weight:bold;
+	background-color:#ffec46;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#fa2));
+	background-image:-moz-linear-gradient(#ffec46,#fa2);
+	background-image:-ms-linear-gradient(#ffec46,#fa2);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#fa2));
+	background-image:-webkit-linear-gradient(#ffec46,#fa2);
+	background-image:-o-linear-gradient(#ffec46,#fa2);
+	background-image:linear-gradient(#ffec46,#fa2);
+	border-color:#fd9d00
+}
+
+.submit1:hover{
+        cursor: pointer;
+	background-color:#fa2;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#f09600));
+	background-image:-moz-linear-gradient(#ffec46,#f09600);
+	background-image:-ms-linear-gradient(#ffec46,#f09600);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#f09600));
+	background-image:-webkit-linear-gradient(#ffec46,#f09600);
+	background-image:-o-linear-gradient(#ffec46,#f09600);
+	background-image:linear-gradient(#ffec46,#f09600);
+	background-position:0 0;
+	border-color:#ed9200
+}
+
+.submit1:active{
+	-webkit-box-shadow:inset 0 3px 7px rgba(0,0,0 .1),0 1px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05);
+	box-shadow:inset 0 3px 7px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.05)
+}
+
+#attr_conf{
+color:#7d4900;
+font-size:20px;
+}
+
+#attr_date{
+color:#7d4900;
+font-size:14px;
+}
+
+#conf_name{
+width:800px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font-size:24px;
+}
+
+#dates{
+width:600px;
+margin:auto;
+text-align:center;
+color:#352a2a;
+font-size:14px;
+border:0px solid black;
+}
+
+#reglog{
+    width:800px;
+    margin:auto;
+}
+.reglogit{
+    width:300px;
+    height:65px;
+    background:#f1f1f1;
+    text-align:center;
+    color:#352a2a;
+}
+#left{
+float:left;
+}
+#right{
+float:right;
+}
+#clear{
+clear:both;
+}
+
+.contain{	
+	margin:0 auto;
+	background:#fff;
+	width:500px;
+	padding:20px 40px;
+	text-align:center;
+}
+#topics_chzn{
+width:310px !important;
+}
+.chzn-drop{
+width:310px !important;
+text-align:left;
+}
+
+#login-error {
+    height:40px;
+    text-align:center;
+    vertical-align: middle;
+    position:fixed;
+    font-size:18px;
+    display: none;
+    text-align: center;
+    margin-left: 320px;
+}
+#login-error div {
+    width: 700px;
+    position: fixed;
+    background-color: #EE0000;
+}
+
+#login-error-1 {
+    height:40px;
+    text-align:center;
+    vertical-align: middle;
+    position:fixed;
+    font-size:18px;
+    display: none;
+    text-align: center;
+    margin-left: 320px;
+}
+#login-error-1 div {
+    width: 700px;
+    position: fixed;
+    background-color: #33FF66;
+}
+
+#body-left{
+    width:300px;
+    float:left;
+    border:1px solid #ccc;
+    
+}
+#body-right{
+    width:650px;
+    height:525px;
+    float:right;
+    border:1px solid #ccc;
+    overflow-y:scroll;
+}
+
+#body{
+    width:1000px;
+    margin:auto;
+}
+
+#bl-head{
+    font-size:16px;
+    color:#7d4900;
+    text-align:center;
+    font-weight:bold;
+}
+
+#p_reqs{
+    padding:4px;
+    border:1px solid #ccc;
+    background:#f1f1f1;
+    padding-bottom:8px;
+    
+}
+#d_reqs{
+    margin-top:8px;
+    padding:4px;
+    border:1px solid #ccc;
+    background:#f1f1f1;
+    padding-bottom:8px;
+}
+#rv-name{
+    font-size:12px;
+    margin:4px;
+    margin-bottom: 8px;
+    text-align:center;
+}
+#prv-item{
+    border:1px solid #ccc;
+    background:#fff;
+    width:250px;
+    margin:auto;
+    margin-top:8px;
+    padding:4px;
+}
+#drv-item{
+    border:1px solid #ccc;
+    background:#fff;
+    width:250px;
+    margin:auto;
+    margin-top:8px;
+    padding:4px;
+}
+#br-head{
+    font-size:16px;
+    color:#7d4900;
+    text-align:center;
+    font-weight:bold;
+}
+
+#rating{
+    padding:8px;
+    border:1px solid #ccc;
+    background:#f1f1f1;
+    padding-bottom:8px;
+    
+}
+#paper-item{
+    border: 1px solid gray;margin:auto; padding: 4px;width:550px;background:#fff;margin-top:8px;
+}

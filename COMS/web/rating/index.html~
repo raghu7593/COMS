@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<link type="text/css" rel="stylesheet" href="doc/css/stylesheet.css"/>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.raty.min.js"></script>
+	</head>
+	<body>
+			<div id="big"></div>
+		<script type="text/javascript">
+			$(function() {
+				$('#big').raty({
+					cancel      : true,
+					cancelHint  : 'remove my rating!',
+					cancelPlace : 'right',
+					cancelOff	: 'cancel-off-big.png',
+					cancelOn	: 'cancel-on-big.png',
+					half		: true,
+					path		: 'doc/img/',
+					size		: 24,
+					starOff		: 'star-off-big.png',
+					starOn		: 'star-on-big.png',
+					starHalf	: 'star-half-big.png',
+					click: function(score, evt) {
+				   	alert(score);
+				  	}
+				});
+			});
+		</script>
+	</body>
+</html>
